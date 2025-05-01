@@ -71,7 +71,8 @@ export function updateDeliveryOption(productId, deliveryOptionId){
     matchingItem.deliveryOptionId = deliveryOptionId;
 
     saveToStorage();
-}export function loadCart(fun){
+}
+export function loadCart(fun){
   const xhr = new XMLHttpRequest();
 
   xhr.addEventListener('load', ()=>{
